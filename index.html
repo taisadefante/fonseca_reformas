@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reforma Fonseca</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+/>
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+
+  
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+          <figure class="avatar-box">
+              <img src="./assets/images/logo.png" alt="Ramon Dias" width="80">
+          </figure>
+          <div class="info-content">
+              <h1 class="name" title="Ramon Dias">Fonseca Reformas</h1>
+              <p class="title">Reformas em Geral</p>
+          </div>
+          <button class="info_more-btn" data-sidebar-btn>
+              <span>Contato</span>
+              <ion-icon name="chevron-down"></ion-icon>
+          </button>
+      </div>
+      <div class="sidebar-info_more">
+          <div class="separator"></div>
+          <ul class="contacts-list">
+              <li class="contact-item">
+                  <div class="icon-box">
+                      <ion-icon name="mail-outline"></ion-icon>
+                  </div>
+                  <div class="contact-info">
+                      <p class="contact-title">E-mail</p>
+                      <a href="mailto:ramondiaz.ads@gmail.com" class="contact-link"></a>
+                  </div>
+              </li>
+              <li class="contact-item">
+                  <div class="icon-box">
+                      <ion-icon name="phone-portrait-outline"></ion-icon>
+                  </div>
+                  <div class="contact-info">
+                      <p class="contact-title">Telefone/whatsapp</p>
+                      <a href="tel:+55 91984808753" class="contact-link">+55 21 99558-5257</a>
+                  </div>
+              </li>
+              
+              <li class="contact-item">
+                  <div class="icon-box">
+                      <ion-icon name="location-outline"></ion-icon>
+                  </div>
+                  <div class="contact-info">
+                      <p class="contact-title">Localização</p>
+                      <address>Rio de Janeiro - RJ, Brasil</address>
+                  </div>
+              </li>
+          </ul>
+          <div class="separator"></div>
+          <ul class="social-list">
+              <li class="social-item">
+                  <a href="https://www.instagram.com/fonseca.reformas.construcoes/" class="social-link" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>                  </a>
+              </li>
+             
+              <li class="social-item">
+                  <a href="https://www.facebook.com/fonseca.reformas.7" class="social-link" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>   
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </aside>
+  
+
+    
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Sobre</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resumo</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Trabalhos</button>
+          </li>
+
+          
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contato</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+       <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="sobre">
+
+        <header>
+          <h2 class="h2 article-title">Sobre</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            texto
+          </p>
+
+          
+        </section>
+
+       
+        <!--
+          - 
+        -->
+
+ 
+        
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Precisando contruir ou Reformar?</h3>
+
+          <div class="content-card">
+
+               <img src="./assets/images/diversos/fr.jpg"  width="100%" alt="">
+                                     
+          </div>
+
+        </section>
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime="2021-06-14"> </time>
+
+              <div data-modal-text>
+                <p>
+                 
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+       <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resumo">
+
+        <header>
+          <h2 class="h2 article-title">Nossos Trabalhos.</h2>
+        </header>
+
+        <section class="timeline">
+
+          <img src="./assets/images/diversos/fr2.jpg"  width="100%" alt="">
+
+        </section>
+
+       
+      </article>
+
+      
+            
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="trabalhos" data-page="trabalhos">
+
+        <header>
+          <h2 class="h2 article-title">Nossos Trabalhos</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Angular</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Javascript HTML e CSS</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>React</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>TypeScript</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Node</button>
+            </li>
+
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Escolha</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>JavaScript html e CSS</button>
+              </li>
+
+             
+              <li class="select-item">
+                <button data-select-item>Angular</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>React</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>TypeScript</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Node</button>
+              </li>
+
+            
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+                <!--
+        - #projeto 1
+      -->
+      <li class="project-item active" data-filter-item data-category="javascript html e css">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <!-- Link para o primeiro ícone -->
+            <a href="https://velas-alecrim.vercel.app/" target="_window">
+              <div style="display: inline-block; margin-right: 20px; vertical-align: top;">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </a>
+            <!-- Link para o segundo ícone -->
+            <a href="https://github.com/taisadefante/velas-alecrim" target="_window">
+              <div style="display: inline-block; vertical-align: top;">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+            </a>
+          </div>
+          <img src="./assets/images//projeto_velas_alegrim.png" alt="finance" loading="lazy">
+        </figure>
+        <h3 class="project-title">Velas Alegrim</h3>
+        <p class="project-category">HTML, CSS e JS</p>
+      </li>
+
+       <!-- #projeto 2 -->
+       <li class="project-item  active" data-filter-item data-category="javascript html e css">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <!-- Link para o primeiro ícone -->
+            <a href="https://taisadefante.github.io/pages_diaristas/" target="_window">
+              <div style="display: inline-block; margin-right: 20px; vertical-align: top;">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </a>
+            <!-- Link para o segundo ícone -->
+            <a href="https://taisadefante.github.io/pages_diaristas/" target="_window">
+              <div style="display: inline-block; vertical-align: top;">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+            </a>
+          </div>
+            <img src="./assets/images/projeto_diarista.jpeg" alt="summary" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">E-diaristas</h3>
+          <p class="project-category">HTML, CSS e JS</p>
+
+        </a>
+      </li>
+
+       <!-- #projeto 3-->
+
+           
+       <li class="project-item  active" data-filter-item data-category="javascript html e css">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <!-- Link para o primeiro ícone -->
+            <a href="https://taisadefante.github.io/web_empresa_ti/" target="_window">
+              <div style="display: inline-block; margin-right: 20px; vertical-align: top;">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </a>
+            <!-- Link para o segundo ícone -->
+            <a href="https://github.com/taisadefante/web_empresa_ti" target="_window">
+              <div style="display: inline-block; vertical-align: top;">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+            </a>
+          </div>
+
+            <img src="./assets/images/projeto_defan_tecnologia.jpeg" alt="fundo" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Defan Tecnologia</h3>
+
+          <p class="project-category">Javascript, HTML & CSS</p>
+
+        </a>
+      </li>
+
+       <!-- #projeto 4-->
+
+           
+       <li class="project-item  active" data-filter-item data-category="typescript">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <!-- Link para o primeiro ícone -->
+            <a href="https://agenda-contatos-two-psi.vercel.app/" target="_window">
+              <div style="display: inline-block; margin-right: 20px; vertical-align: top;">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </a>
+            <!-- Link para o segundo ícone -->
+            <a href="https://github.com/taisadefante/agenda_contatos" target="_window">
+              <div style="display: inline-block; vertical-align: top;">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+            </a>
+          </div>
+
+            <img src="./assets/images/projeto_agenda_contato.png" alt="fundo" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Agenda de Contatos</h3>
+
+          <p class="project-category">TypeScript</p>
+
+        </a>
+      </li>
+      
+        <!-- #projeto 5-->
+
+           
+        <li class="project-item  active" data-filter-item data-category="javascript html e css">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <!-- Link para o primeiro ícone -->
+              <a href=" https://taisadefante.github.io/Cartao_Contato_Tais/" target="_window">
+                <div style="display: inline-block; margin-right: 20px; vertical-align: top;">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+              </a>
+              <!-- Link para o segundo ícone -->
+              <a href="https://github.com/taisadefante/Cartao_Contato_Tais" target="_window">
+                <div style="display: inline-block; vertical-align: top;">
+                  <ion-icon name="logo-github"></ion-icon>
+                </div>
+              </a>
+            </div>
+  
+              <img src="./assets/images/projeto_cartao_contato.png" alt="fundo" loading="lazy">
+            </figure>
+  
+            <h3 class="project-title">Cartão de Contato</h3>
+  
+            <p class="project-category">Javascript, HTML & CSS</p>
+  
+          </a>
+        </li>
+
+        <!-- #projeto 6-->
+
+           
+        <li class="project-item  active" data-filter-item data-category="javascript html e css">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <!-- Link para o primeiro ícone -->
+              <a href=" https://taisadefante.github.io/cafeteria/" target="_window">
+                <div style="display: inline-block; margin-right: 20px; vertical-align: top;">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+              </a>
+              <!-- Link para o segundo ícone -->
+              <a href="https://github.com/taisadefante/cafeteria" target="_window">
+                <div style="display: inline-block; vertical-align: top;">
+                  <ion-icon name="logo-github"></ion-icon>
+                </div>
+              </a>
+            </div>
+  
+              <img src="./assets/images/projeto_cafeteria.jpeg" alt="fundo" loading="lazy">
+            </figure>
+  
+            <h3 class="project-title">Cafeteria</h3>
+  
+            <p class="project-category">Javascript, HTML & CSS</p>
+  
+          </a>
+        </li>
+  
+   <!-- #projeto 7-->
+
+           
+   <li class="project-item  active" data-filter-item data-category="javascript html e css">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <!-- Link para o primeiro ícone -->
+        <a href=" https://taisadefante.github.io/cafeteria/" target="_window">
+          <div style="display: inline-block; margin-right: 20px; vertical-align: top;">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+        </a>
+        <!-- Link para o segundo ícone -->
+        <a href="https://taisadefante.github.io/juice_store/" target="_window">
+          <div style="display: inline-block; vertical-align: top;">
+            <ion-icon name="logo-github"></ion-icon>
+          </div>
+        </a>
+      </div>
+
+        <img src="./assets/images/projeto_juice_store.png" alt="fundo" loading="lazy">
+      </figure>
+
+      <h3 class="project-title">Juice Store</h3>
+
+      <p class="project-category">Javascript, HTML & CSS</p>
+
+    </a>
+  </li>
+
+  <!-- #projeto 8-->
+
+           
+  <li class="project-item  active" data-filter-item data-category="node">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <!-- Link para o primeiro ícone -->
+        
+        <!-- Link para o segundo ícone -->
+        <a href="https://github.com/taisadefante/desafio-backend-modulo-05-sistema-pdv-b2b-ifood-t09-main" target="_window">
+          <div style="display: inline-block; vertical-align: top;">
+            <ion-icon name="logo-github"></ion-icon>
+          </div>
+        </a>
+      </div>
+
+        <img src="./assets/images/projeto_sistema_pdv.png" alt="fundo" loading="lazy" >
+      </figure>
+
+      <h3 class="project-title">Sistema PDV</h3>
+
+      <p class="project-category">Node</p>
+
+    </a>
+  </li>
+                             
+              </ul>
+
+        </section>
+
+      </article>
+
+
+       <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contato">
+
+        <header>
+          <h2 class="h2 article-title">Contato</h2>
+        </header>
+
+        
+        <section class="contact-form">
+
+
+        <div class="contact-buttons-wrapper2">
+
+         
+
+          <a href="https://www.linkedin.com/in/tais-defante/" class="contact-btn2" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+                <span>Instagram</span>
+          </a>
+
+          <a href="taisadefante@hotmail.com" class="contact-btn2" target="_blank">
+            <ion-icon name="mail"></ion-icon>
+            <span>Email</span>
+          </a>
+       
+          <a href="https://github.com/taisadefante" class="contact-btn2" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>   
+                     <span>Facebook</span>
+          </a>
+        
+          <a href="tel:+5521995585257" class="contact-btn2">
+            <ion-icon name="call"></ion-icon>
+            <span>Call</span>
+          </a>
+        
+          
+
+          
+        </div>
+        
+
+        </section>
+
+
+      </article>
+
+    </div>
+
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
