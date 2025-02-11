@@ -1008,6 +1008,23 @@ main {
   animation: scaleUp 0.25s ease forwards;
 }
 
+.project-img {
+  width: 100%; /* Mantém a largura responsiva */
+  height: 250px; /* Define uma altura fixa */
+  display: flex; /* Garante alinhamento interno */
+  justify-content: center; /* Centraliza a imagem */
+  align-items: center; /* Centraliza verticalmente */
+  overflow: hidden; /* Evita distorções */
+}
+
+.project-img img {
+  width: 100%; /* Ajusta a largura para preencher o contêiner */
+  height: 100%; /* Ajusta a altura para preencher o contêiner */
+  object-fit: cover; /* Mantém a proporção e preenche sem distorção */
+  border-radius: 8px; /* Deixa as imagens com bordas arredondadas (opcional) */
+  border: 4px solid white;
+}
+
 @keyframes scaleUp {
   0% {
     transform: scale(0.5);
